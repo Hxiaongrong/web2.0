@@ -8,7 +8,7 @@
 body	{ 
 	   background-image:url(../image/silverware.jpg);
 	   background-repeat: repeat;
-	   background-attachment: fixed;
+	   background-attachment: fixed;/*规定背景图像是否固定或者随着页面的其余部分滚动*/
 	}
 
 
@@ -16,7 +16,7 @@ h1, h2	{
 	   color: #A4A400;
    	   background-color: #F0F0F0;
    	   font-family: "Century Gothic", "Futura", "Verdana", sans-serif;
-   	   text-decoration: underline;
+   	   text-decoration: underline;/*下划线*/
    	   letter-spacing: 0.2em;
 	 }
 
@@ -54,5 +54,5 @@ blockquote   {
 	     }
 
 ul	{
-   	   list-style-image:url(../image/pie_icon.gif);
+   	   list-style-image:url(../image/pie_icon.gif);/*使用图像来替换列表项的标记*/
 	}
