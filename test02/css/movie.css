@@ -1,0 +1,125 @@
+body{
+ 	background-image: url(../img/background.png);
+ 	font-size: 8pt;
+ 	font-family:verdana;
+ }
+
+ .banner_img{
+ 	width: 100%;
+ 	height: 50px;
+ }
+ 
+ h1{
+ 	font:tahoma bold 24pt;
+ 	text-align: center;
+ }
+
+.content{
+	margin: auto;
+	height: 860px;
+	width: 800px;
+	border: solid 4px gray;/*实线 4像素 灰色*/
+	position: relative;
+}
+
+.rotten{
+	border: 0px;
+}
+
+.rotten_bg{
+	border: 0px;
+	background-image: url(../img/rottenbackground.png);
+	width:452px;
+	height: 85px;
+}
+
+.leftarea{
+	float: left;
+	width: 550px;
+}
+.rightarea{
+	float: right;
+	width:250px;
+}
+
+.rotten_bg .text1{
+	font-size: 48pt;
+	font-weight: bold;
+	color: red;
+	line-height: 83px;
+}
+
+.rotten_bg .text2{
+	color:#FFF;
+	font-size: 8pt;
+}
+
+.reviews{
+	border:2px gray solid;
+	padding-left: 10px;
+	background-color: #E1D697;
+}
+
+.reviews q{
+	font-family:tahoma;
+	font-size: 8pt;
+	font-weight: bold;
+}
+
+.redl{
+	width: 46%;
+	margin: 1px 8px;
+	float: left;
+}
+
+.re_bl{
+	padding-bottom: 2em;
+	display: inline-block;
+}
+
+.re_text{
+	float: left;
+}
+
+.re_p{
+	float:left;
+}
+
+.rightarea{
+	background-color: #A2B964;
+}
+
+.rightarea dl{
+	margin:0 10px;
+	font-family: tahoma;
+	font-size: 8pt;
+}
+
+.rightarea dt{
+	font-weight: bold;
+	margin-top: 0.5em;
+}
+
+.rightarea dd{
+	margin-bottom: 0.55em;
+}
+
+.footer{
+	position: absolute;
+ 	bottom:0;
+ 	background-color: #A2B964;
+ 	width: 800px;
+ 	height:20px;
+}
+
+.footer p{
+	text-align: center;
+	line-height: 0px;
+
+}
+
+.w3c{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
