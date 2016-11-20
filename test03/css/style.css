@@ -1,0 +1,192 @@
+
+/*按钮基本样式*/
+#control-ring-container #control-ring .button{
+	background-color: gray;
+	border-radius: 40px;
+	width:40px;
+	height:40px;
+}
+
+#control-ring-container #control-ring img{
+	margin-left: 9px;
+	margin-top: 9px;;
+}
+
+/*红点*/
+#control-ring-container #control-ring .unread{
+	color: white;
+	background-color: red;
+	width:20px;
+	height:20px;
+	border-radius: 20px;
+	text-align: center;
+	display: inline-block;
+}
+
+#control-ring-container{
+	width: 200px;
+	height: 200px;
+	border-radius: 200px;
+	margin:0;
+	padding: 0;
+}
+
+/*去掉圆点*/
+li{
+	list-style-type: none;
+}
+
+/*各个li的位置*/
+#control-ring-container #control-ring .sign{
+	position: relative;
+	top:-43px;
+	left:75px;;
+}
+
+#control-ring-container #control-ring .setting{
+	position: relative;
+	top:5px;
+	left:30px;
+}
+
+#control-ring-container #control-ring .message{
+	position: relative;
+	top:45px;
+	left: -13px;;
+}
+
+#control-ring-container #control-ring .unread{
+	position: relative;
+	top:-2px;
+	left:15px;
+}
+
+#control-ring-container #control-ring .history{
+	position: relative;
+	top:46px;
+	left:-37px;
+}
+
+#control-ring-container #control-ring .mask{
+	position: relative;
+	top:40px;
+	left:-37px;
+}
+
+#info-bar{
+	background-color: gray;
+	border: 1px solid gray;
+	width:130px;
+	height: 130px;
+	border-radius: 130px;
+	position: relative;
+	left: 50px;
+	top:60px;
+}
+
+.info ul .user{
+	position:relative;
+	top:0;
+	left:0px;
+}
+
+.info ul .user span{
+	position: relative;
+	font: 17px bold "微软雅黑";
+	color: #FFF;
+	left: 10px;
+	top:-5px;
+}
+
+.info ul .comment{
+	position: relative;
+	top:10px;;
+	left:0px;
+}
+
+.info ul .comment span{
+	position: relative;
+	font: 25px bold "微软雅黑";
+	color: #FFF;
+	left: 5px;
+	top:-5px;
+}
+
+.info ul .posted{
+	position: relative;
+	top:20px;
+	left:-20px;
+}
+
+.info ul .posted span{
+	font:20px bold;
+	color:#2BD591;
+	position: relative;
+	top:-5px;
+	left:5px;
+}
+
+
+.info ul .like{
+	position:relative;
+	top:-10px;
+	left:30px;
+}
+
+.info ul .like span{
+	font:20px bold;
+	color:#2BD591;
+	position: relative;
+	top:-5px;
+	left:5px;
+}
+
+.abtn{
+	width:100px;
+	height:100px;
+	position: relative;
+	left: 80px;
+	top:300px;
+}
+
+.abtn .a1{
+	margin-top: 10px;
+	background-color: gray;	
+	width:40px;
+	height: 40px;
+	border-radius: 40px;
+}
+
+.abtn .a1 img{
+	position: relative;
+	top:10px;
+}
+
+.abtn:hover .a1{
+	display: none;
+}
+
+.abtn:hover .a2{
+	display: block;
+}
+
+.abtn .a2{
+	display: none;
+	width: 80px;
+	height:80px;
+	border-radius: 80px;
+	background-color: blue;
+}
+
+.abtn .a2 img{
+	position: relative;
+	top:15px;
+}
+
+#button{
+	display: none;
+}
+
+.abtn:hover + #button{
+	display: block;
+}
