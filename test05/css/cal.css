@@ -1,0 +1,25 @@
+body{
+	background-color: #AFFFFF;
+}
+
+table{
+	height: 350px;
+	width: 270px;
+	background-color: #BBFF77;
+	border: 1px solid black;
+}
+
+#nummessege{
+	height: 90px; 
+	width: 380px; 
+	font-size: 50px;
+	padding-left: 10px;
+}
+
+#btn1,#btn2,#btn3,#btn4,#btn5,#btn6,#btn7,#btn8,
+#btn9,#btnadd,#btnsub,#btnmul,#btnpoint,#btndivision,
+#btn0,#btnclear,#btnresult,#btnleft,#btnright,#btndel{
+	height: 70px;
+	width: 90px;
+	font-size: 35px;
+}

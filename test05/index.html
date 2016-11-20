@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<meta name="content-type" content="text/html; charset=UTF-8">
+
+	<head>
+		<title>Calculator</title>
+		<link rel="stylesheet" href="css/cal.css" />
+		<script type="text/javascript" src="js/cal.js"></script>
+	</head>
+
+	<body>
+		<!--定义按键表格,每个按键对应一个事件触发-->
+		<table align="center">
+			<tr>
+				<td colspan="4">
+					<input type="text" id="nummessege" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="button" value="7" id="btn7" onclick="onclicknum(7)">
+				</td>
+				<td>
+					<input type="button" value="8" id="btn8" onclick="onclicknum(8)">
+				</td>
+				<td>
+					<input type="button" value="9" id="btn9" onclick="onclicknum(9)">
+				</td>
+				<td>
+					<input type="button" value="/" id="btndivision" onclick="onclicknum('/')">
+					
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="button" value="4" id="btn4" onclick="onclicknum(4)">
+				</td>
+				<td>
+					<input type="button" value="5" id="btn5" onclick="onclicknum(5)">
+				</td>
+				<td>
+					<input type="button" value="6" id="btn6" onclick="onclicknum(6)">
+				</td>
+				<td>
+					<input type="button" value="*" id="btnmul" onclick="onclicknum('*')">
+					
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="button" value="1" id="btn1" onclick="onclicknum(1)">
+				</td>
+				<td>
+					<input type="button" value="2" id="btn2" onclick="onclicknum(2)">
+				</td>
+				<td>
+					<input type="button" value="3" id="btn3" onclick="onclicknum(3)">
+				</td>
+				<td>
+					<input type="button" value="-" id="btnsub" onclick="onclicknum('-')">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="button" value="0" id="btn0" onclick="onclicknum(0)">
+				</td>
+				<td>
+					<input type="button" value="." id="btnpoint" onclick="onclicknum('.')">
+				</td>
+				<td>
+					<input type="button" value="DEL" id="btndel" onclick="onclickdel()">
+				</td>
+				<td>
+					<input type="button" value="+" id="btnadd" onclick="onclicknum('+')">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="button" value="(" id="btnleft" onclick="onclicknum(this.value)"/>
+				</td>
+				<td>
+					<input type="button" value=")" id="btnright" onclick="onclicknum(this.value)" />
+				</td>
+				<td>
+					<input type="button" value="CE" id="btnclear" onclick="onclickclear()" />
+				</td>
+				<td>
+					<input type="button" value="=" id="btnresult" onclick="onclickresult()" />
+				</td>
+
+			</tr>
+
+		</table>
+	</body>
+
+</html>
