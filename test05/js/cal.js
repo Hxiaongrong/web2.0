@@ -20,7 +20,7 @@ function onclickresult() {
 		//TODO handle the exception
 		str.value="输入错误！";
 	}
-	str.value = numresult;
+	str.value = str.value+"="+numresult;
 }
 
 function onclickdel(){
